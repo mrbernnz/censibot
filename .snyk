@@ -1,0 +1,135 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - hubot-deploy > hubot > express > connect > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > serve-index > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > body-parser > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > connect-timeout > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > morgan > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > serve-static > send > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > send > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > compression > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > compression > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > connect-timeout > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > express-session > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > finalhandler > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > morgan > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > serve-index > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > serve-static > send > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > finalhandler > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > express-session > debug:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:hawk:20160119':
+    - hubot-deploy > octonode > request > hawk:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:http-signature:20150122':
+    - hubot-deploy > octonode > request > http-signature:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:mime:20170907':
+    - hubot > express > connect > serve-static > send > mime:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > send > mime:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > serve-static > send > mime:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > octonode > request > mime:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:ms:20170412':
+    - hubot > express > connect > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > connect-timeout > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > morgan > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > serve-favicon > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > compression > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > body-parser > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > express-session > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > finalhandler > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > serve-static > send > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > serve-index > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:ms:20151024':
+    - hubot-deploy > hubot > express > connect > serve-favicon > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > serve-static > send > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > send > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > compression > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > connect-timeout > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > express-session > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > finalhandler > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > morgan > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > serve-index > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > serve-static > send > debug > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > send > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > connect-timeout > ms:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:negotiator:20160616':
+    - hubot > express > connect > compression > accepts > negotiator:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > compression > accepts > negotiator:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > errorhandler > accepts > negotiator:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > serve-index > accepts > negotiator:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:request:20160119':
+    - hubot-deploy > octonode > request:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:send:20151103':
+    - hubot-deploy > hubot > express > send:
+        patched: '2019-04-05T08:36:06.115Z'
+    - hubot-deploy > hubot > express > connect > serve-static > send:
+        patched: '2019-04-05T08:36:06.115Z'
+  'npm:serve-index:20150314':
+    - hubot-deploy > hubot > express > connect > serve-index:
+        patched: '2019-04-05T08:36:06.115Z'
